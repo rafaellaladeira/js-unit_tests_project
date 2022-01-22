@@ -26,4 +26,6 @@ const average = (array) => {
   return Math.round(somatorio / array.length);
 };
 
+console.log(average([1, 2, 3]));
+
 module.exports = average;
